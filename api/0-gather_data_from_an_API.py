@@ -18,7 +18,7 @@ if __name__ == "__main__":
             text += "\t {}\n".format(task['title'])
             completed_tasks += 1
 
-    print("Employe {} is done with tasks({}/20):\n{}"
+    print("Employee {} is done with tasks({}/20):\n{}"
           .format(employee['name'],
                   completed_tasks,
                   text), end="")
